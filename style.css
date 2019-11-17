@@ -1,0 +1,127 @@
+
+#top {
+    background-color: #ccc;
+    padding: 20px
+}
+
+.intro {
+    color: red;
+    font-weight: bold;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+      }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+#navigationDI {
+    display: inline;
+    padding: 40px 20px;
+    text-decoration: none;
+}
+
+#navigationDB {
+    display: block;
+    padding: 40px 20px;
+    text-decoration: none;
+}
+
+#navigationPS {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#navigationPR {
+    position: relative;
+    top: 500;
+    right: 0;
+    width: 200px;
+}
+
+#navigationPA {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+}
+
+#navigationPF {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+}
+
+#content1 {
+    margin: 150px 0px 0px 400px; /* setting top and bottom margin to 0 and right and left margin to 200px */
+}
+
+
+#navigationFL {
+    float: left;
+    width: 200px;
+}
+
+#navigationFR {
+    float: right;
+    width: 200px;
+   
+}
+
+#content2 {
+    margin: 20px 0px 0px 300px;
+}
+
+.center {
+    padding: 10px 10px 10px 10px;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+  }
+
+body {
+    background: white url(/bg.gif) no-repeat top right;
+}
+
+a:active {
+    color: red;
+}
+/*
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+*/
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+p {
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
+}
+
+#content3 {
+    margin: 100px 0px 0px 0px;
+}
